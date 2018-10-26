@@ -1,0 +1,45 @@
+{
+  "origin": [
+    "#one_or_two_people# went to the store."
+  ],
+
+  "one_or_two_people": [
+    "#name1#", "#name2#", "#name1# and #name2#"
+  ],
+
+  "name1": [
+    "Catherine",
+    "Michael"
+  ],
+
+  "name2": [
+    "Hannah",
+    "Rebecca"
+  ]
+}
+
+
+This will cause Tracery to output one of the following options:
+"Catherine went to the store."
+"Michael went to the store."
+"Hannah went to the store."
+"Rebecca went to the store."
+"Catherine and Hannah went to the store."
+"Catherine and Rebecca went to the store."
+"Michael and Hannah went to the store."
+"Michael and Rebecca went to the store."
+
+
+
+
+Roughly 66.6% of the time, it will output a single name.
+Roughly 33.3% of the time, it will output a pair of names, one from each of "name1" and "name2".
+
+
+
+This means:
+It will never say "Catherine and Michael" together.
+It will never say "Hannah and Rebecca" together.
+It will never put "Hannah" or "Rebecca" first.
+
+It will always say these people "went to the store", because we only wrote that part once.

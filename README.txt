@@ -14,7 +14,7 @@ What we did:
 ——————
 1. We only want Black Dogs of the British Isles. Sorry, Anubis. So:
 - We go to Wikipedia: https://en.wikipedia.org/wiki/Black_dog_(ghost)
-- We copy everything between “England” and the end of “Channel Islands and Isle of Man”
+- We copy everything between "England" and the end of "Channel Islands and Isle of Man"
 - paste into Atom. This strips the formatting from our web browser into plain text, strips URLs, etc.
 - Save it as “source-wikipedia.txt” so we remember what it is.
 
@@ -42,7 +42,7 @@ This generates a new file called “source-wikipedia-nobrackets.txt” that remo
 4. Now we need to extract all the sentences that say something interesting
 We can go back to wikipedia and skim the article for declarative phrases and then look for what they have in common, writing them down.
 
-It looks like a lot of these are saying “the ___ was said to…” and so on. Let’s copy those down.
+It looks like a lot of these are saying “the such-and-such dog was said to...” and so on. Let’s copy those.
 
 
 
@@ -67,7 +67,7 @@ This isn''t JSON yet. Let's add the Tracery origin symbol and call this new symb
 
 Turn on JSON syntax highlighting… and it looks good!
 
-But there's some red flags here. It looks like we have some "unescaped" quotes. Because we'ree surrounding each of these facts with quotes, the ones that themselves contain quotes will break. Let's manually escape those by putitng a backslash in front of them \" .
+But there's some red flags here. It looks like we have some "unescaped" quotes. Because we're surrounding each of these facts with quotes, the ones that themselves contain quotes will break. Let's manually escape those by putting a backslash in front of them \" .
 
 A good tip here is that the syntax highlighting will tell you what you're doing wrong.
 

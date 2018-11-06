@@ -1,5 +1,13 @@
 {
   "origin": [
+    "origin2"
+  ],
+
+  "origin1": [
+    "#name1# went to the store."
+  ],
+
+  "origin2": [
     "#one_or_two_people# went to the store."
   ],
 
@@ -32,8 +40,8 @@ This will cause Tracery to output one of the following options:
 
 
 
-Roughly 66.6% of the time, it will output a single name.
-Roughly 33.3% of the time, it will output a pair of names, one from each of "name1" and "name2".
+2/3rds of the time, it will output a single name.
+1/3rd of the time, it will output a pair of names, one from each of "name1" and "name2".
 
 
 

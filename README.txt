@@ -47,7 +47,7 @@ It looks like a lot of these are saying “the ___ was said to…” and so on. 
 
 
 5. Now, let’s generate a new file. Using Terminal:
-grep -i ’is said\|was said\|has been\|described as\|the form\can be\|anyone\|someone\|person\|omen\|when’ source-wikipedia-each-sentence-on-own-line.txt > output.txt
+grep -i 'is said\|was said\|has been\|described as\|the form\can be\|anyone\|someone\|person\|omen\|when' source-wikipedia-each-sentence-on-own-line.txt > output.txt
     - you can specify as many or as few phrases or individual terms as you want. You just have to remember to put them between single quotes and separate them by a \|
     - a good tip is to open the output file in the background and run different commands to see the list change.
     - it’s looking for instances of these exact phrases, so “is said to” will match “it is said to be seen by…” but will not match “it is said that the…”

@@ -1,29 +1,12 @@
 {
   "name": [
-    "Cheri",
-    "Fox",
-    "Morgana",
-    "Jedoo",
-    "Brick",
-    "Shadow",
-    "Krox",
-    "Urga",
-    "Zelph"
+    "Cheri", "Fox", "Morgana", "Jedoo", "Brick", "Shadow", "Krox", "Urga", "Zelph"
   ],
   "story": [
-    "#hero.capitalize# was a great #occupation#, and this song tells of #heroTheir# adventure. #hero.capitalize# #didStuff#, then #heroThey# #didStuff#, then #heroThey# went home to read a book."
+    "#hero.capitalize# was a great #occupation#, and this song tells of #heroTheir# adventure.
+     #hero.capitalize# #didStuff#, then #heroThey# #didStuff#, then #heroThey# went home to read a book."
   ],
-  "monster": [
-    "dragon",
-    "ogre",
-    "witch",
-    "wizard",
-    "goblin",
-    "golem",
-    "giant",
-    "sphinx",
-    "warlord"
-  ],
+  "monster": ["dragon", "ogre", "witch", "wizard", "goblin", "golem", "giant", "sphinx", "warlord"],
   "setPronouns": [
     "[heroThey:they][heroThem:them][heroTheir:their][heroTheirs:theirs]",
     "[heroThey:she][heroThem:her][heroTheir:her][heroTheirs:hers]",
